@@ -1,5 +1,5 @@
 function main () {
-    var forCat = 1;
+    var forCat;
     
 }
 console.log(main());

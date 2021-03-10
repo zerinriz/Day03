@@ -1,7 +1,12 @@
 function main () {
-    var x = 10;
-    x = y
-    return [x,y]
+    var x;
+    var y;
+    
+    x = 10;
+    y = x;
+    
+    return [x, y];
 }
-main();
+console.log(main());
+
 module.exports = main;
